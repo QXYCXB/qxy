@@ -1,0 +1,5 @@
+第一步：project目录下rm -rf build/ log/ install/
+ 第二步：project/src目录下rm -rf workspace_deleted, 
+第三步：回到project目录下，env | grep workspace_deleted
+第四步：unset 相关环境变量
+第五步：重新设置和激活ROS2环境:source /opt/ros/humble/setup.bash
